@@ -1,0 +1,163 @@
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+header h1{
+  background: #D0C372;
+}
+
+nav {
+  background: #555;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.container {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.left {
+  float: left;
+  width: 48%;
+  padding: 10px;
+  line-height: 1.6;
+}
+
+.right {
+  float: right;
+  width: 48%;
+  padding: 10px;
+}
+.team-container{
+    overflow: auto;
+    padding:20px;
+}
+
+.card1{
+    float: left; 
+    width:22%;
+    margin:10px;
+    padding:10px;
+    border:1px solid #ccc;
+    text-align:center;
+}
+
+.card1 img{
+    width:100%;
+    height:220px;
+}
+.card2 {
+  float:  left;
+  width: 22%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  overflow: auto;
+}
+
+.card2 img {
+  width: 100%;
+  height: 220px;
+}
+.card3 {
+  float: right;
+  width: 22%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.card3 img {
+  width: 100%;
+  height: 220px;
+}
+.card4 {
+  float: right;
+  width: 22%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  clear: both;
+}
+
+.card4 img {
+  width: 100%;
+  height: 220px;
+}
+.clear{
+    clear:both;
+}
+register-form {
+  width: 70%;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+fieldset {
+  border: 2px solid #1f4e79;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+legend {
+  color: #1f4e79;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #1f4e79;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #163a5c;
+}
+
+footer {
+  clear: both;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
